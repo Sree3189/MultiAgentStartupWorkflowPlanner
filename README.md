@@ -21,12 +21,12 @@ export AZURE_OPENAI_ENDPOINT="[https://your-resource-name.openai.azure.com/](htt
 export AZURE_OPENAI_DEPLOYMENT_NAME="gpt-5-mini"
 export AZURE_OPENAI_API_VERSION="2024-04-01-preview"
 
-### Steps to Run and Inspect Project Results
+## Steps to Run and Inspect Project Results
 
-1. **Terminal Setup**: Open your terminal or IDE (VS Code, PyCharm).
-2. **Export Environment Variables**: Set your Azure OpenAI Endpoint and Key as described in Step 2.
-3. **Run Code**: Execute `python app.py`.
-4. **Observe Results**:
+1. Terminal Setup: Open your terminal or IDE (VS Code, PyCharm).
+2. Export Environment Variables: Set your Azure OpenAI Endpoint and Key as described in Step 2.
+3. Run Code: Execute `python app.py`.
+4. Observe Results:
    * Inspect the real-time execution logs starting with `[Research Agent] -> EXECUTION_STARTED` to trace the data flow through each agent.
    * Verify the `[Quality Reviewer]` approval step.
    * View the final generated JSON structure printed under `FINAL DELIVERABLE: APPROVED PITCH DECK OUTLINE`.
